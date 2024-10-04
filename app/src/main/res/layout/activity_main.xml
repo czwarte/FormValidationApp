@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Imię"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Adres e-mail"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/editTextHaslo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Hasło"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/editTextPowHaslo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Powtórz hasło"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Wyślij"/>
+</LinearLayout>
